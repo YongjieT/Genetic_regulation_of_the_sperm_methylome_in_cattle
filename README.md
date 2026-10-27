@@ -4,7 +4,7 @@
 
 This repository provides analysis scripts for investigating the genetic regulation of DNA methylation in bovine sperm. Using whole-genome sequencing (WGS) and whole-genome bisulfite sequencing (WGBS) data from 125 bulls, the study examines associations between DNA methylation blocks (meBlocks) and four classes of genetic variants: single-nucleotide polymorphisms (SNPs), insertions and deletions (InDels), short tandem repeats (STRs), and structural variants (SVs).
 
-The analyses include variant identification, DNA methylation quantification, meQTL mapping, fine-mapping, chromatin annotation, and integration with GWAS of complex traits.
+The analyses include variant identification, DNA methylation quantification, meQTL mapping, fine-mapping, and integration with GWAS of complex traits.
 
 ## Analysis Scripts
 
@@ -41,6 +41,5 @@ Scripts illustrate the study-specific analysis workflow and may require adjustme
 ## Contact Information
 
 For questions or suggestions, please contact:
-
-- **Lingzhao Fang**: lingzhao.fang@qgg.au.dk
 - **Ying Yu**: yuying@cau.edu.cn
+- **Lingzhao Fang**: lingzhao.fang@qgg.au.dk
