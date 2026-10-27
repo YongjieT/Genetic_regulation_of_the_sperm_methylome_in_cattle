@@ -17,14 +17,14 @@ The analyses include variant identification, DNA methylation quantification, meQ
 ### 2. DNA methylation quantification
 
 - **`2. Mask CpG SNPs.R`**: Exclusion of CpG sites overlapping SNPs at the cytosine or adjacent guanine position.
-- **`3. DNA methylation quantification.sh`**: WGBS processing, methylation quantification, and meBlock construction.
+- **`3. DNA methylation quantification.sh`**: WGBS processing and methylation quantification.
 
 ### 3. Genetic association and fine-mapping
 
 - **`4. meGene identification.py`**: cis-meQTL mapping for DNA methylation blocks using tensorQTL.
 - **`5. Fine-mapping.r`**: Fine-mapping of meQTL signals using SuSiE to identify credible sets and posterior inclusion probabilities.
 
-### 4. Chromatin annotation
+### 4. ATAC
 
 - **`6. MACS3 peak calling.sh`**: ATAC-seq peak calling using MACS3.
 - **`7. TOBIAS footprinting.sh`**: Transcription factor footprinting and binding-site analysis using TOBIAS.
